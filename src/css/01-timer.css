@@ -1,0 +1,61 @@
+main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#datetime-picker {
+  min-width: 223.5px;
+  min-height: 22px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: large;
+}
+
+#datetime-picker:active,
+#datetime-picker:hover {
+  border: 1px solid #d8d8d8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+[data-start] {
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+[data-start]:active,
+[data-start]:hover {
+  background-color: #d8d8d8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.label {
+  margin: 0 auto;
+  font-size: medium;
+  font-weight: 460;
+}
